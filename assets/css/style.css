@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "open-sans", sans-serif;
+}
+.main-card{
+    background: bisque;
+    width: 70%;
+    height: 650px;
+    border-radius: 25px;
+    border: 4px solid beige;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.card-top{
+    width: 100%;
+    height: 45px;
+    border-bottom: 3px solid beige;
+    background-color: rgb(253, 220, 179);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;   
+}
+.available-dot{
+    width: 10px;
+    height: 10px;
+    background-color:chartreuse;
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 8px;
+    border-width: 1px;
+    border-color: chocolate;
+    border-style: solid;
+}
+.available-dot ~ p{
+    color:chocolate;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+}
+.card-top span{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    border-left: 1px solid beige;
+    text-transform:capitalize;
+    color: chocolate;
+    font-weight: 400;
+}
+ 
