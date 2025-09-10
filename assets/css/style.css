@@ -14,7 +14,7 @@ body{
 }
 .main-card{
     background: bisque;
-    width: 70%;
+    width: 60%;
     height: 650px;
     border-radius: 25px;
     border: 4px solid beige;
@@ -87,6 +87,62 @@ body{
     width: 70%;
     display: flex;
     flex-direction: column;
+}
+.card-right p{
+    margin-right: 80px;
+}
+a{
+    font-weight: 600;
+    text-decoration: none;
+    color: chocolate;
+    transition: 0.3s;
+}
+a:hover{
+    color:coral;
+}
+a.button-main{
+    display: inline-block;
+    padding: 8px 20\px;
+    margin: 0 2px;
+    border: 2px solid beige;
+    border-radius: 10px;
+    background-color: chocolate;
+    color: beige;
+    font-weight: 400;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .09);
+}
+a.button-main:hover{
+    display: inline-block;
+    padding: 8px 20\px;
+    margin: 0 2px;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    background-color: rgb(253, 220, 179);
+    color: chocolate;
+    font-weight: 400;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .09);
+}
+a.button-sub{
+    display: inline-block;
+    padding: 8px 20\px;
+    margin: 0 2px;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    background-color: rgb(253, 220, 179);
+    color: chocolate;
+    font-weight: 400;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .09);
+}
+a.button-sub:hover{
+    display: inline-block;
+    padding: 8px 20\px;
+    margin: 0 2px;
+    border: 2px solid beige;
+    border-radius: 10px;
+    background-color: chocolate;
+    color: beige;
+    font-weight: 400;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .09);
 }
 /* Footer section */
 .card-right-footer{
